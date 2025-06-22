@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #3b3d3d;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfu4ih12Zz1MpIKjWXCE8caJ1beMSFeL6cg&s");
+    background-size: cover;
+    animation: bgScroll 20s linear infinite;
+    
+}
+
+
+.navbar{
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+
+}
+.image{
+    
+    height: 80px;
+}
+.image-container{
+    align-self: flex-start;
+    display: flex;
+
+}
+.navbar-heading{
+    color: #6dd1d1;
+    align-self: flex-start;
+}
+.navbar-heading-2{
+    align-self: flex-end;
+    color: white;
+}
+.body-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body-list-item{
+    padding-bottom:20px;
+    padding-top:20px;
+    font-size: 30px;
+   
+}
+.body-heading{
+    padding: 20px;
+}
+.body-unorderlist li {
+  padding: 12px 20px;
+  border-bottom: 1px solid #dce0e4;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.body-unorderlist li:last-child {
+  border-bottom: none;
+}
+
+.body-unorderlist li:hover {
+  background-color: #e1ecf4;
+  color: #0077cc;
+}
